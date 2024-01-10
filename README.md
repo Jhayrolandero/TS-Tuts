@@ -1,5 +1,5 @@
-# Learning TS lesson 16
+# Learning TS lesson 17
 
-# Interfaces with Classes
+# RenderingListItem Class
 
 **NPM run runTS to automatically Compile TS to JS**
