@@ -5,7 +5,8 @@
   "main": "sandbox.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runTS": "tsc -w"
+    "runTS": "tsc -w",
+    "push": "git push origin head"
   },
   "keywords": [],
   "author": "",
