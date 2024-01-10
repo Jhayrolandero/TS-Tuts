@@ -1,5 +1,5 @@
-# Learning TS lesson 11
+# Learning TS lesson 12
 
-# DOM interaction and Typecasting
+# Classes
 
 **NPM run runTS to automatically Compile TS to JS**
