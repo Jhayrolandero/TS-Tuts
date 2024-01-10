@@ -1,5 +1,5 @@
-# Learning TS lesson 18
+# Learning TS lesson 19
 
-# Intro to Generics
+# ENUMS
 
 **NPM run runTS to automatically Compile TS to JS**
