@@ -30,3 +30,37 @@ form.addEventListener('submit', (e: Event) => {
 
     List.render(doc, type.value, 'end')
 })
+
+
+const addUID = <T extends object>(obj: T) => {
+    let uid = Math.floor(Math.random() * 100)
+
+    return {...obj, uid}
+}
+
+let docOne = addUID({ name: 'Yoshi', age: 40})
+
+
+console.log(docOne.name)
+
+
+// Interface 
+interface Resource<T> {
+    uid: number
+    resourceName: string;
+    data: T
+}
+
+const docThree: Resource<string> = {
+    uid: 1,
+    resourceName: 'Garen',
+    data: 'Nani???'
+}
+
+const docFour: Resource<String[]> = {
+    uid: 2,
+    resourceName: 'IDK',
+    data: ['Okay', 'Demacia!!!']
+}
+
+console.log(docThree, docFour)

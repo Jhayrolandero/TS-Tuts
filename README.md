@@ -1,5 +1,5 @@
-# Learning TS lesson 17
+# Learning TS lesson 18
 
-# RenderingListItem Class
+# Intro to Generics
 
 **NPM run runTS to automatically Compile TS to JS**
