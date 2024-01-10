@@ -1,5 +1,5 @@
-# Learning TS lesson 9
+# Learning TS lesson 10
 
-# Type Aliases
+# Function Types(Signatures)
 
 **NPM run runTS to automatically Compile TS to JS**
