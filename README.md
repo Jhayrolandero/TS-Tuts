@@ -1,5 +1,5 @@
-# Learning TS lesson 10
+# Learning TS lesson 11
 
-# Function Types(Signatures)
+# DOM interaction and Typecasting
 
 **NPM run runTS to automatically Compile TS to JS**
