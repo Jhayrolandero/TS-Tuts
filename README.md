@@ -1,5 +1,5 @@
-# Learning TS lesson 7
+# Learning TS lesson 8
 
-# Better workflow and tsconfig
+# Function Basics and (Void)
 
 **NPM run runTS to automatically Compile TS to JS**
