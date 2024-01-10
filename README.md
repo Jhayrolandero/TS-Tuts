@@ -1,5 +1,5 @@
-# Learning TS lesson 14
+# Learning TS lesson 15
 
-# Modules
+# Interfaces
 
 **NPM run runTS to automatically Compile TS to JS**
