@@ -1,7 +1,7 @@
 //  Classes
 class invoice {
-    client: string
-    details: string
+    readonly client: string
+    private details: string
     amount: number
 
     constructor(c: string, d: string, a: number) {
@@ -22,7 +22,9 @@ let invoices: invoice[] = []
 invoices.push(invOne)
 invoices.push(invTwo)
 
-console.log(invoices)
+invoices.forEach(inv => {
+    console.log(inv.client, inv.amount, inv.format())
+})
 
 const form = document.querySelector('.new-item-form') as HTMLFormElement
 

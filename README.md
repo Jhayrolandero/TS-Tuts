@@ -1,5 +1,5 @@
-# Learning TS lesson 12
+# Learning TS lesson 13
 
-# Classes
+# Access Modifiers
 
 **NPM run runTS to automatically Compile TS to JS**
