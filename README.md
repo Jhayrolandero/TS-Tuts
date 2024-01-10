@@ -1,5 +1,5 @@
-# Learning TS lesson 8
+# Learning TS lesson 9
 
-# Function Basics and (Void)
+# Type Aliases
 
 **NPM run runTS to automatically Compile TS to JS**
