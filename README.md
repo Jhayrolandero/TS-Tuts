@@ -1,5 +1,5 @@
-# Learning TS lesson 19
+# Learning TS lesson 20
 
-# ENUMS
+# Tuples
 
 **NPM run runTS to automatically Compile TS to JS**

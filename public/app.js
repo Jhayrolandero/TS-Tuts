@@ -13,11 +13,13 @@ const List = new ListTemplate(ul);
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     let doc;
+    let values;
+    values = [toFrom.value, details.value, amount.valueAsNumber];
     if (type.value === 'invoice') {
-        doc = new Invoice(toFrom.value, details.value, amount.valueAsNumber);
+        doc = new Invoice(...values);
     }
     else {
-        doc = new Payment(toFrom.value, details.value, amount.valueAsNumber);
+        doc = new Payment(...values);
     }
     List.render(doc, type.value, 'end');
 });
@@ -47,3 +49,5 @@ const docFour = {
     data: ['Okay', 'Demacia!!!']
 };
 console.log(docThree, docFour);
+// Tuples
+let tup = ['ryu', 25, true];
