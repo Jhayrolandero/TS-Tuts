@@ -1,0 +1,13 @@
+{
+  "name": "ts-tuts",
+  "version": "1.0.0",
+  "description": "\"# Learning TS\"",
+  "main": "sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runTS": "tsc sandbox.ts --outFile sandbox.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
