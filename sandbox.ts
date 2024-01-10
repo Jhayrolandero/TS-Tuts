@@ -1,14 +1,29 @@
-let character = 'mario'
-let age = 30
-let isBlackBelt = false
+// Arrays
+let names = ['Yasuo', 'Zed', 'Garen']
 
-// character = 30
-character = 'Luigi'
+names.push('Volibear')
 
+let nums = [10, 20, 30, 40]
 
-const circ = (diameter : number) => {
-    return diameter * Math.PI
+nums.push(50)
+
+let mixed = ['LUL', 3, 34, 'Hurr hurr hurr hurr']
+
+mixed.push('RYUK')
+mixed.push(32)
+mixed[0] = 0
+
+// Objects
+let ninja = {
+    name: 'Mario',
+    belt: 'Black',
+    age: 30
 }
 
+// ninja.age = 'LUL'
 
-console.log(circ(7.5))
+ninja = {
+    name: 'Toshi',
+    belt: 'Orange',
+    age: 40
+}

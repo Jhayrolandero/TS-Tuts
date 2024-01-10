@@ -1,3 +1,3 @@
-# Learning TS lesson 3
+# Learning TS lesson 4
 
 **NPM run runTS to automatically Compile TS to JS**
