@@ -1,5 +1,5 @@
-# Learning TS lesson 6
+# Learning TS lesson 7
 
-# Dynamic Typings
+# Better workflow and tsconfig
 
 **NPM run runTS to automatically Compile TS to JS**

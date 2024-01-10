@@ -5,7 +5,7 @@
   "main": "sandbox.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runTS": "tsc sandbox.ts --outFile sandbox.js -w"
+    "runTS": "tsc -w"
   },
   "keywords": [],
   "author": "",
