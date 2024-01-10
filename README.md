@@ -1,5 +1,5 @@
-# Learning TS lesson 5
+# Learning TS lesson 6
 
-# Explicit Types
+# Dynamic Typings
 
 **NPM run runTS to automatically Compile TS to JS**
